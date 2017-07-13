@@ -1,0 +1,6 @@
+*.bat
+node_modules
+*.json
+build
+jquery
+bootstrap-3.3.6-dist

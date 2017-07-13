@@ -1,0 +1,41 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+    <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.6-dist/css/bootstrap.min.css?1.0.0.48"/>
+    <script type="text/javascript" src="./jquery/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="./bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>    
+
+	<script src="build\sopa.js"></script>
+	<script src="build\game.js"></script>	
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-6">
+				<label for="txtInicio">Inicio (fila columna):</label>
+				<input type="text" class="form-control" id="txtInicio"></input>
+			</div>			
+			<div class="col-xs-6">
+				<label for="txtFinal">Final &nbsp;(fila columna):</label>
+				<input type="text" class="form-control" id="txtFinal"></input>
+			</div>
+			<div class="col-xs-12">
+				<button type="button" class="btn btn-primary" id="btnMarkWord"
+					style="margin-bottom: 5px; margin-top: 5px;">Marcar palabra</input>
+			</div>		
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6">
+				<canvas id="canvasBoard" width="550" height="550" style="border: 1px solid"></canvas>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<canvas id="canvasWords" width="230" height="180" style="border: 1px solid"></canvas>
+			</div>
+		</div>
+	</div>
+	
+</body>
+
+</html>
